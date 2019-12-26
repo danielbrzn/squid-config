@@ -35,7 +35,5 @@ http_access allow localhost
 http_access allow password
 http_access allow all
 
-tls_outgoing_options options=ALL
-
 forwarded_for off
 request_header_access All allow all
